@@ -1,18 +1,23 @@
+import HomeBackgroundVideo from "../../assets/images/Home-Background-Video.mp4";
 
 const HeroSection = () => {
   return (
-    <section
-      className="relative w-full h-[450px] md:h-[600px] lg:[700px] bg-cover bg-center"
-      style={{
-        backgroundImage:
-          "url('https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg')",
-      }}
-    >
+    <section className="relative w-full h-[450px] md:h-[600px] lg:h-[700px] overflow-hidden">
+      {/* Background Video */}
+      <video
+        className="absolute top-0 left-0 w-full h-full object-cover"
+        src={HomeBackgroundVideo}
+        autoPlay
+        loop
+        muted
+        playsInline
+      />
+
       {/* Overlay */}
       <div className="absolute inset-0 bg-black opacity-40"></div>
 
       {/* Content */}
-      <div className="container mx-auto px-6 lg:px-12 relative z-10 flex flex-col items-start justify-center h-full text-white ">
+      <div className="container mx-auto px-6 lg:px-12 relative z-10 flex flex-col items-start justify-center h-full text-white">
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight">
           Collaborate with <br /> Leaders in Quality <br /> Contract
           Manufacturing
@@ -23,16 +28,8 @@ const HeroSection = () => {
         </p>
       </div>
 
-      {/* Download Button */}
-      {/* <div className="absolute left-[13px] top-[66%] transform -translate-y-1/2 rotate-[-90deg] origin-left">
-        <button className="bg-white text-black px-4 py-2 rounded-b-md shadow-md hover:bg-gray-200 transition">
-          <span className="mr-2">Download Product List</span>
-          <span className="inline-block transform rotate-90">⬇️</span>
-        </button>
-      </div> */}
-
       {/* Call to Action */}
-      <div className="absolute bottom-0 right-0 bg-black text-white p-4 md:p-6 flex items-center gap-4">
+      <div className="absolute bottom-0 right-0 bg-black text-white p-4 md:p-6 flex items-center gap-4 z-10">
         <p className="text-sm md:text-base">
           Are you ready to achieve <br />{" "}
           <strong>successful growth for your business?</strong>

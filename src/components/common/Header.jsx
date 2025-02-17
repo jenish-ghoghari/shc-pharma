@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import { useState, useEffect } from "react";
 import { headerMenu } from "../Constant";
 import { HiMiniBars3 } from "react-icons/hi2";
 import { IoMdClose } from "react-icons/io";
 import { Link, useLocation } from "react-router-dom";
 import { FiChevronDown } from "react-icons/fi"; // Import the down caret icon
 import Logo from "../../assets/logo/LOGO.svg";
+
 const Header = () => {
   const location = useLocation();
   const currentPath = location.pathname;
@@ -19,11 +20,17 @@ const Header = () => {
     setIsProductDropdownOpen(!isProductDropdownOpen);
   };
 
+  // Close dropdown and mobile menu on page change
+  useEffect(() => {
+    setIsMenuOpen(false);
+    setIsProductDropdownOpen(false);
+  }, [currentPath]); // Runs whenever the URL path changes
+
   return (
     <header className="sticky top-0 z-50 sm:text-center px-3 md:px-0 bg-white">
-      <nav className="container mx-auto px-6 lg:px-12 flex justify-between items-center py-3">
+      <nav className="container mx-auto lg:px-12 flex justify-between items-center py-3">
         {/* Logo Section */}
-        <div className="w-[130px] md:w-[160px] ">
+        <div className="w-[90px] md:w-[140px] ">
           <img src={Logo} alt="LOGO" className="w-auto" />
         </div>
 
@@ -58,7 +65,7 @@ const Header = () => {
                   ) : (
                     <button
                       onClick={toggleProductDropdown}
-                      className={`hover:text-[#2295de] focus:outline-none flex items-center gap-1  ${
+                      className={`hover:text-[#2295de] focus:outline-none flex items-center gap-1 ${
                         isProductDropdownOpen
                           ? "text-[#2295de] font-bold"
                           : "text-gray-500 font-semibold"
@@ -108,7 +115,7 @@ const Header = () => {
           <div className="flex items-center gap-2">
             <button
               type="button"
-              className="hover:bg-transparent hover:text-[#2295de] hover:border-[#2295de] hover:transition-all bg-[#2295de] font-bold border text-white px-5 py-2 rounded-[8px] w-[145px]"
+              className="text-sm md:text-lg hover:bg-transparent hover:text-[#2295de] hover:border-[#2295de] hover:transition-all bg-[#2295de] font-bold border text-white px-2 md:px-5 py-2 rounded-[8px]  w-[110px] sm:w-[145px] "
             >
               Contact Us
             </button>

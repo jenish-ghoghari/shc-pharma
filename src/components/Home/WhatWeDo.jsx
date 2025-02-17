@@ -1,4 +1,3 @@
-import React from "react";
 import { whatWeDo } from "../Constant";
 
 const WhatWeDo = () => {

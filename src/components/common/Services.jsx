@@ -1,8 +1,6 @@
-import React from "react";
-import { ShieldCheck, Truck, Tag, Star, Package, Settings } from "lucide-react";
 import { services } from "../Constant";
 
-const  Services = () =>  {
+const Services = () => {
   return (
     <section className="py-12 bg-white text-center px-4 sm:px-6 lg:px-8">
       <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">
@@ -14,7 +12,7 @@ const  Services = () =>  {
         meet the needs of our valued customers.
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {services.map((feature, index) => (
           <div
             key={index}
@@ -22,9 +20,13 @@ const  Services = () =>  {
           >
             <div className="text-indigo-600 mb-4">
               {" "}
-              <img className="w-20 md:w-35" src={feature.image} alt={feature.title} />
+              <img
+                className="w-13  sm:w-20 md:w-35"
+                src={feature.image}
+                alt={feature.title}
+              />
             </div>
-            <h3 className="text-base sm:text-md md:text-lg font-semibold text-gray-700 text-center">
+            <h3 className="text-sm sm:text-md md:text-lg font-semibold text-gray-700 text-center">
               {feature.title}
             </h3>
           </div>
@@ -32,6 +34,6 @@ const  Services = () =>  {
       </div>
     </section>
   );
-}
+};
 
-export default Services
+export default Services;

@@ -1,59 +1,37 @@
-const sections = [
-  {
-    id: "A",
-    title: "Cream/Ointment",
-    items: [
-      "Clobetasol Propionate Cream",
-      "Clobetasol Propionate + Neomycin + Tolnaftate + Ketoconazole + Iodochlorhydroxyquinoline Cream",
-      "Clobetasol Propionate + Neomycin Sulphate + Miconazole Nitrate Cream",
-      "Ketoconazole Cream",
-    ],
-  },
-  {
-    id: "B",
-    title: "Gel",
-    items: [
-      "Diclofenac Diethylamine + Linseed Oil + Methyl Salicylate + Menthol Gel",
-      "Diclofenac Diethylamine + Linseed Oil + Methyl Salicylate + Menthol + Capsaicin Gel",
-    ],
-  },
-  {
-    items: [
-      "Diclofenac Diethylamine + Linseed Oil + Methyl Salicylate + Menthol Gel",
-      "Diclofenac Diethylamine + Linseed Oil + Methyl Salicylate + Menthol + Capsaicin Gel",
-    ],
-  },
-];
+import PropTypes from "prop-types";
+import React from "react";
+import { Link, useLocation } from "react-router-dom";
 
-export default function TableComponent() {
+const TableComponent = ({ pageData }) => {
+  const location = useLocation();
+  const pathnames = location.pathname.split("/").filter((x) => x);
   return (
     <section className="py-10">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="py-4">
           {/* Breadcrumb */}
-          <nav className="text-sm text-gray-600 mb-4">
+          <nav className="text-sm sm:text-md  text-gray-600 mb-4">
             <ol className="flex flex-wrap space-x-2">
               <li>
-                <a href="/" className="text-blue-600 hover:underline">
+                <Link
+                  to="/"
+                  className="text-[#2295de] font-semibold hover:underline"
+                >
                   Home
-                </a>
+                </Link>
               </li>
-              <li>/</li>
-              <li>
-                <a href="/products" className="text-blue-600 hover:underline">
-                  Products
-                </a>
-              </li>
-              <li>/</li>
-              <li className="text-gray-800 font-semibold">Capsules</li>
+              {pathnames.map((name, index) => (
+                <li key={index} className="flex items-center space-x-2">
+                  <span>/</span>
+                  <span className="text-gray-600 font-semibold">{name}</span>
+                </li>
+              ))}
             </ol>
           </nav>
 
           {/* Product Categories */}
-          <p className="text-2xl font-bold text-gray-900">
-            Immunosuppressive, Vasodilators, Anti-Depressants, Prokinetics-
-            Psycholeptic & Antipsychotics, Anti-Coagulants, PPIs, Neuropathic
-            Pain, Antimuscarinic, Antifungal, Antibiotic, NSAIDs
+          <p className="text-md sm:text-lg md:text-2xl font-bold text-gray-900">
+            {pageData.tableTitle}
           </p>
         </div>
         <div className="overflow-x-auto">
@@ -65,14 +43,18 @@ export default function TableComponent() {
               </tr>
             </thead>
             <tbody>
-              {sections.map((section) => (
-                <>
-                  <tr key={section.id} className="bg-blue-200 border-b">
-                    <td className="px-4 py-3 font-bold border-r">
-                      {section.id}
-                    </td>
-                    <td className="px-4 py-3 font-bold">{section.title}</td>
-                  </tr>
+              {pageData.tableData.map((section, index) => (
+                <React.Fragment key={index}>
+                  {section.title && (
+                    <tr
+                      className={`bg-[${pageData.tableTitleBackground}] border-b`}
+                    >
+                      <td className="px-4 py-3 font-bold border-r">
+                        {section.id}
+                      </td>
+                      <td className="px-4 py-3 font-bold">{section.title}</td>
+                    </tr>
+                  )}
                   {section.items.map((item, index) => (
                     <tr
                       key={`${section.id}-${index}`}
@@ -82,7 +64,7 @@ export default function TableComponent() {
                       <td className="px-4 py-3">{item}</td>
                     </tr>
                   ))}
-                </>
+                </React.Fragment>
               ))}
             </tbody>
           </table>
@@ -90,4 +72,21 @@ export default function TableComponent() {
       </div>
     </section>
   );
-}
+};
+
+TableComponent.propTypes = {
+  pageData: PropTypes.shape({
+    tableTitle: PropTypes.string.isRequired,
+    tableTitleBackground: PropTypes.string.isRequired,
+    tableData: PropTypes.arrayOf(
+      PropTypes.shape({
+        id: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+          .isRequired,
+        title: PropTypes.string.isRequired,
+        items: PropTypes.arrayOf(PropTypes.string).isRequired,
+      })
+    ).isRequired,
+  }).isRequired,
+};
+
+export default TableComponent;

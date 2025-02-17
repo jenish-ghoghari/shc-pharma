@@ -12,12 +12,14 @@ import TrustworthyBusinessPolicy from "../assets/logo/TrustworthyBusinessPolicy.
 import QuickDelivery from "../assets/logo/QuickDelivery.png";
 import CompetitiveAffordablePricing from "../assets/logo/CompetitiveAffordablePricing.png";
 import PureSafeQualityProducts from "../assets/logo/PureSafeQualityProducts.png";
-import DiverseProductRange from "../assets/logo/TabletsLogoBlack.png";
-import CustomFormulationsBrandingSolution from "../assets/logo/TabletsLogoBlack.png";
+import DiverseProductRange from "../assets/logo/DiverseProductRange.png";
+import CustomFormulationsBrandingSolution from "../assets/logo/CustomFormulationsBrandingSolution.png";
 import FSSAI from "../assets/logo/fssaiLogo.png";
 import GMP from "../assets/logo/GMPLogo.png";
 import GLP from "../assets/logo/GLPLogo.png";
 import FDA from "../assets/logo/FDALogo.png";
+
+
 export const headerMenu = [
   {
     name: "Home",
@@ -148,3 +150,4 @@ export const licenses = [
     name: "FDA",
   },
 ];
+
