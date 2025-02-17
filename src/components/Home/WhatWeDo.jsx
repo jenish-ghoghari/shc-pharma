@@ -2,7 +2,7 @@ import { whatWeDo } from "../Constant";
 
 const WhatWeDo = () => {
   return (
-    <section className="bg-[#0a0f1d] text-white py-12 sm:px-6 lg:px-8">
+    <section className="bg-[#0a0f1d] text-white py-12 md:py-20">
       <div className="container mx-auto px-6 lg:px-12">
         <h2 className="text-3xl font-bold text-center mb-8">What We Do?</h2>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">

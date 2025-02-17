@@ -49,25 +49,26 @@ const Header = () => {
                   className="relative max-w-fit pr-3 md:pr-0 py-1"
                 >
                   {item.url ? (
-                    <Link
-                      to={item.url}
-                      className={` hover:text-[#2295de] flex items-center gap-1 transition-all ${
+                    <a
+                      href={`${item.url}`}
+                      className={` hover:text-primary-blue flex items-center gap-1 transition-all ${
                         currentPath === item.url
-                          ? "text-[#2295de] font-bold"
+                          ? "text-primary-blue font-bold"
                           : "text-gray-500 font-semibold"
                       }`}
+                     
                     >
                       {item.name}
                       {item.subItems && (
                         <FiChevronDown className="text-gray-500" />
                       )}
-                    </Link>
+                    </a>
                   ) : (
                     <button
                       onClick={toggleProductDropdown}
-                      className={`hover:text-[#2295de] focus:outline-none flex items-center gap-1 ${
+                      className={`hover:text-primary-blue focus:outline-none flex items-center gap-1 ${
                         isProductDropdownOpen
-                          ? "text-[#2295de] font-bold"
+                          ? "text-primary-blue font-bold"
                           : "text-gray-500 font-semibold"
                       }`}
                     >
@@ -88,15 +89,15 @@ const Header = () => {
                           key={subIndex}
                           className={`px-4 py-2 hover:bg-gray-100 ${
                             currentPath === subItem.url
-                              ? "bg-gray-100 font-bold text-[#2295de]"
+                              ? "bg-gray-100 font-bold text-primary-blue"
                               : ""
                           }`}
                         >
                           <Link
                             to={subItem.url}
-                            className={`hover:text-[#2295de] font-semibold ${
+                            className={`hover:text-primary-blue font-semibold ${
                               currentPath === subItem.url
-                                ? "text-[#2295de]"
+                                ? "text-primary-blue"
                                 : "text-gray-700"
                             }`}
                           >
@@ -113,12 +114,12 @@ const Header = () => {
 
           {/* Login Button and Menu Toggle */}
           <div className="flex items-center gap-2">
-            <button
-              type="button"
-              className="text-sm md:text-lg hover:bg-transparent hover:text-[#2295de] hover:border-[#2295de] hover:transition-all bg-[#2295de] font-bold border text-white px-2 md:px-5 py-2 rounded-[8px]  w-[110px] sm:w-[145px] "
+            <Link
+              to="/contact-us"
+              className="text-center text-sm md:text-lg hover:bg-transparent hover:text-primary-blue hover:border-primary-blue hover:transition-all bg-primary-blue font-bold border text-white px-2 md:px-5 py-2 rounded-[8px]  w-[110px] sm:w-[145px] "
             >
               Contact Us
-            </button>
+            </Link>
             <button
               onClick={onMenuToggle}
               className="text-[30px] cursor-pointer md:hidden hover:transition-all"

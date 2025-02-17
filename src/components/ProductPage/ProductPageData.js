@@ -43,7 +43,7 @@ export const productPagesData = [
 
     tableTitle:
       "Immunosuppressive, Vasodilators, Anti-Depressants, Prokinetics-Psycholeptic & Antipsychotics, Anti-Coagulants, PPIs, Neuropathic Pain, Antimuscarinic, Antifungal, Antibiotic, NSAIDs",
-    tableTitleBackground: "#bedc98",
+    tableTitleBackground: "bg-primary-green",
     tableData: [
       {
         id: "A",
@@ -217,7 +217,7 @@ export const productPagesData = [
     ],
 
     tableTitle: "Cream, Ointment, Gel & Lotion",
-    tableTitleBackground: "#D2EDFF",
+    tableTitleBackground: "bg-primary-lightBlue",
     tableData: [
       {
         id: "A",
@@ -315,7 +315,7 @@ export const productPagesData = [
 
     tableTitle:
       "Cough & Cold, NSAIDs/Analgesic & Antiemetics, Antihistaminic/Anti-Allergic, Urinary Alkalinizer, Anti-Helmintic, Antacid/Laxatives, Appetite Stimulant",
-    tableTitleBackground: "#FFDE59",
+    tableTitleBackground: "bg-primary-yellow",
     tableData: [
       {
         id: "A",

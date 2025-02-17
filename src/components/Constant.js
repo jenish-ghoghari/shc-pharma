@@ -19,7 +19,6 @@ import GMP from "../assets/logo/GMPLogo.png";
 import GLP from "../assets/logo/GLPLogo.png";
 import FDA from "../assets/logo/FDALogo.png";
 
-
 export const headerMenu = [
   {
     name: "Home",
@@ -27,7 +26,8 @@ export const headerMenu = [
   },
   {
     name: "About",
-    url: "/about",
+    url: "about",
+    elementID: "about",
   },
   {
     name: "Services",
@@ -36,9 +36,11 @@ export const headerMenu = [
   {
     name: "Product",
     subItems: [
+      { name: "Tablet", url: "/product/tablets" },
       { name: "Capsule", url: "/product/capsule" },
-      { name: "Tablet", url: "/product/tablet" },
-      { name: "Injection", url: "/product/injection" },
+      { name: "Syrup", url: "/product/syrup" },
+      { name: "Solutions", url: "/product/solutions" },
+      { name: "External Preparation", url: "/product/external-preparation" },
     ],
   },
 ];
@@ -46,22 +48,27 @@ export const headerMenu = [
 export const productCategories = [
   {
     title: "Tablets",
+    url: "tablets",
     image: Tablet,
   },
   {
     title: "Capsules",
+    url: "capsule",
     image: Capsules,
   },
   {
     title: "External Preparations Ointment-Cream-Gel-Lotion",
+    url: "external-preparations",
     image: ExternalPreparation,
   },
   {
     title: "Syrups",
+    url: "syrup",
     image: Syrups,
   },
   {
     title: "Solutions",
+    url: "solutions",
     image: Solutions,
   },
 ];
@@ -150,4 +157,3 @@ export const licenses = [
     name: "FDA",
   },
 ];
-

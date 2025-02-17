@@ -5,12 +5,14 @@ import ProductCategory from "./ProductCategory";
 import Services from "../common/Services";
 import WhatWeDo from "./WhatWeDo";
 
-const index = () => {
+const Main = () => {
+  
+
   return (
     <>
       <HeroSection />
       <ProductCategory />
-      <AboutUs />
+      <AboutUs/>
       <WhatWeDo />
       <Services />
       <Certifications />
@@ -18,4 +20,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Main;

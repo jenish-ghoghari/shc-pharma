@@ -15,7 +15,7 @@ const TableComponent = ({ pageData }) => {
               <li>
                 <Link
                   to="/"
-                  className="text-[#2295de] font-semibold hover:underline"
+                  className="text-primary-blue font-semibold hover:underline"
                 >
                   Home
                 </Link>
@@ -46,9 +46,7 @@ const TableComponent = ({ pageData }) => {
               {pageData.tableData.map((section, index) => (
                 <React.Fragment key={index}>
                   {section.title && (
-                    <tr
-                      className={`bg-[${pageData.tableTitleBackground}] border-b`}
-                    >
+                    <tr className={`${pageData.tableTitleBackground} border-b`}>
                       <td className="px-4 py-3 font-bold border-r">
                         {section.id}
                       </td>

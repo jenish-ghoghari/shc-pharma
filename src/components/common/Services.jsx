@@ -2,7 +2,10 @@ import { services } from "../Constant";
 
 const Services = () => {
   return (
-    <section className="py-12 bg-white text-center px-4 sm:px-6 lg:px-8">
+    <section
+      id="services"
+      className="container mx-auto px-6 lg:px-12  py-12 md:py-20 bg-white text-center"
+    >
       <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">
         Why SHC Pharma?
       </h2>

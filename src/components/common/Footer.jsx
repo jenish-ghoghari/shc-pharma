@@ -34,7 +34,7 @@ const Footer = () => {
                   key={index}
                   to="/"
                   target="_blank"
-                  className="text-[#2295de] hover:text-[#83c5ee] transition"
+                  className="text-primary-blue hover:text-[#83c5ee] transition"
                 >
                   <Icon className="w-6 h-6" />
                 </Link>
