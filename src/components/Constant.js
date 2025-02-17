@@ -79,21 +79,24 @@ export const contactAddresses = [
     company: "Divyajivan Healthcare Pvt. Ltd.",
     email: "info@divyajivanhealth.org",
     phone: "+91 635-777-9100",
-    address: "1001 & 1002 Zircon Arena, Surat - 394510, Gujarat, India",
+    address:
+      "1001 & 1002 Zircon Arena Opp. De’Villa Restro,Pal RTO to Hazira Road, Surat - 394510, Gujarat, India",
   },
   {
     title: "Manufacturing Site (Unit 1):",
     company: "SHC Pharmaceuticals",
     email: "info@shcpharma.com",
     phone: "+91 973-702-0866",
-    address: "Diamond Nagar, Laskana, Surat - 395006, Gujarat, India",
+    address:
+      "18-19, Besides Amrut Udhyog Nagar, Diamond Nagar, Laskana, Surat - 395006, Gujarat, India",
   },
   {
     title: "Manufacturing Site (Unit 2):",
     company: "Divyajivan Lifescience Pvt. Ltd.",
     email: "info@divyajivanlife.org",
-    phone: "+91 231-232-233",
-    address: "Ichhapore, Surat - 394510, Gujarat, India",
+    phone: "+91 635-777-9200",
+    address:
+      "Plot no. 231, 232, 233 RJD Integrated Textile Park Ichhapore, Surat - 394510, Gujarat",
   },
 ];
 

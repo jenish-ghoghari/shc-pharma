@@ -30,12 +30,12 @@ const TableComponent = ({ pageData }) => {
           </nav>
 
           {/* Product Categories */}
-          <p className="text-md sm:text-lg md:text-2xl font-bold text-gray-900">
+          {/* <p className="text-md sm:text-lg md:text-2xl font-bold text-gray-900">
             {pageData.tableTitle}
-          </p>
+          </p> */}
         </div>
         <div className="overflow-x-auto">
-          <table className="w-full border bg-white">
+          <table className="w-full md:w-[90%] lg:w-[70%]  mx-auto border bg-white">
             <thead className="bg-[#0b1b2a] text-white">
               <tr>
                 <th className="px-4 py-3 text-left">No</th>

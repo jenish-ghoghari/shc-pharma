@@ -11,8 +11,8 @@ const Main = () => {
   return (
     <>
       <HeroSection />
-      <ProductCategory />
       <AboutUs/>
+      <ProductCategory />
       <WhatWeDo />
       <Services />
       <Certifications />

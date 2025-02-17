@@ -43,7 +43,7 @@ export const productPagesData = [
 
     tableTitle:
       "Immunosuppressive, Vasodilators, Anti-Depressants, Prokinetics-Psycholeptic & Antipsychotics, Anti-Coagulants, PPIs, Neuropathic Pain, Antimuscarinic, Antifungal, Antibiotic, NSAIDs",
-    tableTitleBackground: "bg-primary-green",
+    tableTitleBackground: "bg-primary-lightBlue",
     tableData: [
       {
         id: "A",
@@ -160,9 +160,9 @@ export const productPagesData = [
         icon: TabletsLogoBlack,
       },
       {
-        title: "Solutions",
-        url: "/product/solutions",
-        icon: SolutionLogoBlack,
+        title: "Syrup",
+        url: "/product/syrup",
+        icon: SyrupLogoBlack,
       },
       {
         title: "External Prep.",
@@ -315,7 +315,7 @@ export const productPagesData = [
 
     tableTitle:
       "Cough & Cold, NSAIDs/Analgesic & Antiemetics, Antihistaminic/Anti-Allergic, Urinary Alkalinizer, Anti-Helmintic, Antacid/Laxatives, Appetite Stimulant",
-    tableTitleBackground: "bg-primary-yellow",
+    tableTitleBackground: "bg-primary-lightBlue",
     tableData: [
       {
         id: "A",

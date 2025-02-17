@@ -5,18 +5,16 @@ import WelcomeBackground from "../../assets/images/Welcome-SHC-Background-Photo.
 const AboutUs = () => {
   return (
     <section
-      className="relative w-full bg-cover bg-center min-h-screen"
+      className="relative w-full bg-cover bg-center h-auto"
       style={{
         backgroundImage: `url(${WelcomeBackground})`,
       }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black opacity-85"></div>
+      <div className="absolute inset-0 bg-black opacity-90"></div>
 
       {/* Content */}
-      <div
-        className="container mx-auto px-6 lg:px-12 relative z-10 text-center text-white  py-12 sm:py-16 md:py-20 lg:py-24"
-      >
+      <div className="container mx-auto px-6 lg:px-12 relative z-10 text-center text-white  py-12 sm:py-16 md:py-20 lg:py-24">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
           Welcome to SHC Pharmaceuticals
         </h1>
@@ -62,6 +60,20 @@ const AboutUs = () => {
             the company leverages cutting-edge technology and a dedicated team
             to deliver diverse healthcare products that meet the evolving
             demands of the pharmaceutical industry.
+          </p>
+        </div>
+
+        <div className="my-6 sm:my-8 max-w-4xl mx-auto">
+          <p className="text-lg sm:text-xl font-bold mb-2">
+            Pharmac Chemical & Pharmaceuticals
+          </p>
+          <p className="text-base sm:text-md md:text-lg leading-relaxed">
+            Pharmac Chemical & Pharmaceuticals has been a trusted name in the
+            import and export of nutraceutical raw materials, active
+            pharmaceutical ingredients (APIs), and excipients since 2015. With a
+            strong global network and a commitment to quality, we ensure the
+            seamless supply of high-grade pharmaceutical and nutraceutical
+            ingredients to manufacturers worldwide.
           </p>
         </div>
 

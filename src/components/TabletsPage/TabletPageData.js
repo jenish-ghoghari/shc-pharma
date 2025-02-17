@@ -226,7 +226,7 @@ export const tabletPageData = {
     {
       tableTitle:
         "Anti-Hypotensive, Antimalarial, Vitamin And Minerals, Chronic Kidney",
-      tableTitleBackground: "bg-primary-green",
+      tableTitleBackground: "bg-primary-lightBlue",
       tableData: [
         {
           id: "A",
@@ -270,7 +270,7 @@ export const tabletPageData = {
     {
       tableTitle:
         "Miscellaneous, Anti-Vertigo, Anti Diarrhea, Anticonvulsant, Mucolytic Expectorant",
-      tableTitleBackground: "bg-primary-green",
+      tableTitleBackground: "bg-primary-lightBlue",
       tableData: [
         {
           id: "A",
@@ -310,7 +310,7 @@ export const tabletPageData = {
     {
       tableTitle:
         "Anti-Arrhythmic, Antitussive, Immunosuppressive, Gout, Antimuscarinic, DMARDS",
-      tableTitleBackground: "bg-primary-green",
+      tableTitleBackground: "bg-primary-lightBlue",
       tableData: [
         {
           id: "A",
@@ -358,7 +358,7 @@ export const tabletPageData = {
     {
       tableTitle:
         "Anti-Arrhythmic, Antitussive, Immunosuppressive, Gout, Antimuscarinic, DMARDS",
-      tableTitleBackground: "bg-primary-green",
+      tableTitleBackground: "bg-primary-lightBlue",
       tableData: [
         {
           id: "A",
@@ -406,7 +406,7 @@ export const tabletPageData = {
     {
       tableTitle:
         "Cardiac Glycoside Na+/K+ ATPase, Antidepressant, Anti Cold, Sexual Stimulation, Steroids, Anti-Fibrotic, Antipsychotics, Surgical Pain Management",
-      tableTitleBackground: "bg-primary-green",
+      tableTitleBackground: "bg-primary-lightBlue",
       tableData: [
         {
           id: "A",
