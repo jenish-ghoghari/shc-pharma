@@ -31,14 +31,22 @@ const HeroSection = () => {
       </div>
 
       {/* Call to Action */}
-      <div className=" absolute md:w-[35%] bottom-0 right-0 bg-primary-blue text-white p-4 md:p-6 flex justify-center items-center gap-4 z-10">
-        <p className="text-sm md:text-xl">
-          Are you ready to achieve <br />{" "}
+      <div className="absolute w-full md:w-[65%] lg:w-[55%] xl:w-[35%] bottom-0 right-0 bg-primary-blue text-white flex justify-between items-center gap-4 z-10">
+        <p className="text-sm md:text-xl p-4 md:p-6">
+          Are you ready to achieve <br />
           <strong>successful growth for your business?</strong>
         </p>
-        <Link to="/contact-us" className=" bg-white text-black p-3 rounded-full shadow-md hover:bg-gray-300 transition">
-          <FaArrowAltCircleRight size={25} className="text-primary-blue"/>
-        </Link>
+        <div className="bg-white px-6 w-1/4">
+          <Link
+            to="/contact-us"
+            className="text-black p-3 rounded-full transition"
+          >
+            <span className="flex gap-2 items-center font-bold text-md">
+              <span className="hidden md:block">Submit your Inquiry</span>
+              <FaArrowAltCircleRight size={60} className="text-primary-blue" />
+            </span>
+          </Link>
+        </div>
       </div>
     </section>
   );

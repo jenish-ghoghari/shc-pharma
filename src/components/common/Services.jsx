@@ -24,7 +24,7 @@ const Services = () => {
             <div className="text-indigo-600 mb-4">
               {" "}
               <img
-                className="w-13  sm:w-20 md:w-35"
+                className="w-14  sm:w-20 md:w-35"
                 src={feature.image}
                 alt={feature.title}
               />

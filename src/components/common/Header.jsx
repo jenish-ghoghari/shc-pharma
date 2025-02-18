@@ -4,7 +4,7 @@ import { HiMiniBars3 } from "react-icons/hi2";
 import { IoMdClose } from "react-icons/io";
 import { Link, useLocation } from "react-router-dom";
 import { FiChevronDown } from "react-icons/fi"; // Import the down caret icon
-import Logo from "../../assets/logo/LOGO.svg";
+import Logo from "../../assets/LOGO.svg";
 
 const Header = () => {
   const location = useLocation();
@@ -27,12 +27,12 @@ const Header = () => {
   }, [currentPath]); // Runs whenever the URL path changes
 
   return (
-    <header className="sticky top-0 z-50 sm:text-center px-3 md:px-0 bg-white">
-      <nav className="container mx-auto lg:px-12 flex justify-between items-center py-3">
+    <header className="sticky top-0 z-50 sm:text-center md:px-0 bg-white">
+      <nav className="container mx-auto px-6 lg:px-12 flex justify-between items-center py-3">
         {/* Logo Section */}
-        <div className="w-[90px] md:w-[140px] ">
+        <Link to={"/"} className="w-[80px] md:w-[100px] ">
           <img src={Logo} alt="LOGO" className="w-auto" />
-        </div>
+        </Link>
 
         {/* Navigation Links and Login Button */}
         <div className="flex items-center gap-3">
@@ -49,8 +49,8 @@ const Header = () => {
                   className="relative max-w-fit pr-3 md:pr-0 py-1"
                 >
                   {item.url ? (
-                    <a
-                      href={`${item.url}`}
+                    <Link
+                      to={`${item.url}`}
                       className={` hover:text-primary-blue flex items-center gap-1 transition-all ${
                         currentPath === item.url
                           ? "text-primary-blue font-bold"
@@ -62,11 +62,11 @@ const Header = () => {
                       {item.subItems && (
                         <FiChevronDown className="text-gray-500" />
                       )}
-                    </a>
+                    </Link>
                   ) : (
                     <button
                       onClick={toggleProductDropdown}
-                      className={`hover:text-primary-blue focus:outline-none flex items-center gap-1 ${
+                      className={`hover:text-primary-blue focus:outline-none flex items-center gap-1  ${
                         isProductDropdownOpen
                           ? "text-primary-blue font-bold"
                           : "text-gray-500 font-semibold"

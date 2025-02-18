@@ -25,8 +25,8 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-gray-400 leading-relaxed">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-              consequuntur amet culpa cum itaque neque.
+              Collaborate with Leaders in Quality Third-Party Manufacturing.
+              Ensuring, Reliability, and Consistency.
             </p>
             <div className="flex justify-center md:justify-start gap-4 mt-4">
               {[FaFacebook, FaInstagram, FaTwitter].map((Icon, index) => (
@@ -49,7 +49,10 @@ const Footer = () => {
               <div className="mt-2 space-y-1">
                 <div className="flex items-center  md:justify-start gap-2">
                   <IoMdMail className="w-5 h-5" />
-                  <a href={`mailto:${info.email}`} className="hover:underline">
+                  <a
+                    href={`mailto:${info.email}`}
+                    className="hover:underline text-sm md:text-base"
+                  >
                     {info.email}
                   </a>
                 </div>
@@ -57,14 +60,16 @@ const Footer = () => {
                   <IoIosCall className="w-5 h-5" />
                   <a
                     href={`tel:${info.phone.replace(/\s+/g, "")}`}
-                    className="hover:underline"
+                    className="hover:underline text-sm md:text-base"
                   >
                     {info.phone}
                   </a>
                 </div>
                 <div className="flex items-start  md:justify-start gap-2">
                   <FaLocationDot className="w-5 h-5" />
-                  <address className="not-italic">{info.address}</address>
+                  <address className="not-italic text-sm md:text-base">
+                    {info.address}
+                  </address>
                 </div>
               </div>
             </div>

@@ -19,6 +19,11 @@ import GMP from "../assets/logo/GMPLogo.png";
 import GLP from "../assets/logo/GLPLogo.png";
 import FDA from "../assets/logo/FDALogo.png";
 
+import CompanyValue from "../assets/images/Value.jpg";
+import Mission from "../assets/images/Mission.jpg";
+import MissionTwo from "../assets/images/MissionTwo.jpg";
+import QualityPolicy from "../assets/images/QualityPolicy.jpg";
+
 export const headerMenu = [
   {
     name: "Home",
@@ -26,8 +31,7 @@ export const headerMenu = [
   },
   {
     name: "About",
-    url: "about",
-    elementID: "about",
+    url: "/about-us",
   },
   {
     name: "Services",
@@ -158,5 +162,39 @@ export const licenses = [
   {
     image: FDA,
     name: "FDA",
+  },
+];
+
+export const companyValues = [
+  {
+    image: CompanyValue,
+    title: "Company value",
+    textAlign: "text-start",
+
+    description:
+      "SHC Pharmaceuticals ensures quality, safety, and purity in pharmaceuticals for global health.",
+  },
+  {
+    image: Mission,
+    textAlign: "text-end",
+    title: "our vision",
+    marginStart: "md:ms-auto",
+    description:
+      "Our vision is to achieve excellence in formulation and become a leading pharmaceutical company that empowers life sciences through quality and innovation.",
+  },
+  {
+    image: MissionTwo,
+    textAlign: "text-start",
+    title: "our mission",
+    description:
+      "Innovative and affordable products that address the needs and satisfaction of our customers",
+  },
+  {
+    image: QualityPolicy,
+    textAlign: "text-end",
+    marginStart: "md:ms-auto",
+    title: "QUALITY POLICY",
+    description:
+      "SHC Pharmaceuticals excels in innovation, quality, and customer satisfaction, providing reliable pharmaceuticals to healthcare providers, distributors, and retailers. Contact us to meet your manufacturing needs and contribute to global health.",
   },
 ];
