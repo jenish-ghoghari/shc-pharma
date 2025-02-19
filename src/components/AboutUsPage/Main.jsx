@@ -3,6 +3,7 @@ import AboutSHC from "./AboutSHC";
 import CompanyValues from "./CompanyValues";
 import Services from "../common/Services";
 import Certifications from "../common/Certifications";
+import CoreValues from "./CoreValues";
 
 const Main = () => {
   return (
@@ -10,6 +11,7 @@ const Main = () => {
       <HeroSection />
       <AboutSHC />
       <CompanyValues />
+      <CoreValues />
       <Services />
       <Certifications />
     </>

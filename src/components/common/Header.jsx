@@ -56,7 +56,6 @@ const Header = () => {
                           ? "text-primary-blue font-bold"
                           : "text-gray-500 font-semibold"
                       }`}
-                     
                     >
                       {item.name}
                       {item.subItems && (

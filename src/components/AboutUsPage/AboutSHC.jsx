@@ -4,7 +4,7 @@ import DivyaJivanLifescience from "../../assets/logo/Divyajivan-Lifescience-Logo
 
 const AboutSHC = () => {
   return (
-    <section className="container mx-auto px-6 lg:px-12 py-10">
+    <section className="container mx-auto px-6 lg:px-12 py-12 sm:py-16 md:py-20 lg:py-24">
       <div className="flex flex-col md:flex-row items-center gap-0 md:gap-6 border md:border-0 ">
         <div className="w-full md:w-1/2">
           <img

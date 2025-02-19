@@ -9,7 +9,7 @@ import LogoDivyaJivan from "../../assets/logo/divyajivan-logo.svg";
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white">
-      <div className="container mx-auto px-6 lg:px-12 py-10 sm:px-6">
+      <div className="container mx-auto px-6 lg:px-12 py-10 sm:px-6 ">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="text-center md:text-left">
             <div className="mb-4 flex gap-10 items-center justify-center md:justify-normal">

@@ -24,6 +24,10 @@ import Mission from "../assets/images/Mission.jpg";
 import MissionTwo from "../assets/images/MissionTwo.jpg";
 import QualityPolicy from "../assets/images/QualityPolicy.jpg";
 
+import EmbraceIntegrity from "../assets/images/EmbraceIntegrity.png"
+import ByAnyMeansNecessary from "../assets/images/ByAnyMeansNecessary.png"
+import TopPriority from "../assets/images/TopPriority.png"
+import TeamworkAlways from "../assets/images/TeamworkAlways.png"
 export const headerMenu = [
   {
     name: "Home",
@@ -196,5 +200,37 @@ export const companyValues = [
     title: "QUALITY POLICY",
     description:
       "SHC Pharmaceuticals excels in innovation, quality, and customer satisfaction, providing reliable pharmaceuticals to healthcare providers, distributors, and retailers. Contact us to meet your manufacturing needs and contribute to global health.",
+  },
+];
+
+
+export const  coreValues = [
+  {
+    id: "01",
+    title: "Embrace Integrity",
+    description: "Always do the right thing, even when unobserved.",
+    icon: EmbraceIntegrity,
+    color: "bg-red-500",
+  },
+  {
+    id: "02",
+    title: "By Any Means Necessary",
+    description: "Care for customers, employees, and products.",
+    icon: ByAnyMeansNecessary,
+    color: "bg-blue-500",
+  },
+  {
+    id: "03",
+    title: "Top Priority",
+    description: "Listen to your customers: HCPs, patients, and partners.",
+    icon: TopPriority,
+    color: "bg-green-500",
+  },
+  {
+    id: "04",
+    title: "Teamwork always",
+    description: "Foster collaboration both internally and externally.",
+    icon: TeamworkAlways,
+    color: "bg-yellow-500",
   },
 ];

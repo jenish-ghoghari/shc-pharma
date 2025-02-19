@@ -3,7 +3,7 @@ import { productCategories } from "../Constant";
 
 const ProductCategory = () => {
   return (
-    <div className="container mx-auto px-6 lg:px-12  py-12 md:py-20">
+    <div className="container mx-auto px-6 lg:px-12  py-12 sm:py-16 md:py-20 lg:py-24">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6 items-center">
         <div className="text-center md:text-left">
           <p className="text-3xl md:text-5xl font-semibold">
