@@ -32,7 +32,7 @@ const AboutSHC = () => {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row gap-10 py-16">
+      <div className="flex flex-col md:flex-row gap-10 pt-16">
         <div className="w-full md:w-1/2 text-center md:text-right flex flex-col gap-4 items-center md:items-end">
           <img
             src={Logo}

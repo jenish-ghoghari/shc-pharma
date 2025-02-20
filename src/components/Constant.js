@@ -24,10 +24,10 @@ import Mission from "../assets/images/Mission.jpg";
 import MissionTwo from "../assets/images/MissionTwo.jpg";
 import QualityPolicy from "../assets/images/QualityPolicy.jpg";
 
-import EmbraceIntegrity from "../assets/images/EmbraceIntegrity.png"
-import ByAnyMeansNecessary from "../assets/images/ByAnyMeansNecessary.png"
-import TopPriority from "../assets/images/TopPriority.png"
-import TeamworkAlways from "../assets/images/TeamworkAlways.png"
+import EmbraceIntegrity from "../assets/images/EmbraceIntegrity.png";
+import ByAnyMeansNecessary from "../assets/images/ByAnyMeansNecessary.png";
+import TopPriority from "../assets/images/TopPriority.png";
+import TeamworkAlways from "../assets/images/TeamworkAlways.png";
 export const headerMenu = [
   {
     name: "Home",
@@ -203,8 +203,7 @@ export const companyValues = [
   },
 ];
 
-
-export const  coreValues = [
+export const coreValues = [
   {
     id: "01",
     title: "Embrace Integrity",
@@ -232,5 +231,42 @@ export const  coreValues = [
     description: "Foster collaboration both internally and externally.",
     icon: TeamworkAlways,
     color: "bg-yellow-500",
+  },
+];
+
+export const manufacturingProcessData = [
+  {
+    id: 1,
+    title: "Formulation Approval",
+    description:
+      "(If not already obtained) from state or central drug authorities.",
+  },
+  {
+    id: 2,
+    title: "Designing the Product",
+    description:
+      "Designing the product and finalizing packaging material for printing.",
+  },
+  {
+    id: 3,
+    title: "Raw Material Procurement",
+    description: "Raw Material Procurement takes place.",
+  },
+  {
+    id: 4,
+    title: "Product Manufacturing",
+    description:
+      "Raw and packaging materials, alongside quality testing, taking place.",
+  },
+  {
+    id: 5,
+    title: "Product Stability Testing",
+    description: "Product Stability Testing in various conditions.",
+  },
+  {
+    id: 6,
+    title: "Shipping the Finished Goods",
+    description:
+      "Shipping the Finished Goods to the client along with necessary quality documents.",
   },
 ];

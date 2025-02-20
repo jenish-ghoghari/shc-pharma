@@ -31,7 +31,7 @@ const HeroSection = () => {
       </div>
 
       {/* Call to Action */}
-      <div className="absolute w-full md:w-[65%] lg:w-[55%] xl:w-[35%] bottom-0 right-0 bg-primary-blue text-white flex justify-between items-center gap-4 z-10">
+      <div className="absolute w-full md:w-[65%] lg:w-[55%] xl:w-[46%] bottom-0 right-0 bg-primary-blue text-white flex justify-between items-center gap-4 z-10">
         <p className="text-sm md:text-xl p-4 md:p-6">
           Are you ready to achieve <br />
           <strong>successful growth for your business?</strong>
