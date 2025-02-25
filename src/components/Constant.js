@@ -176,7 +176,7 @@ export const companyValues = [
     textAlign: "text-start",
 
     description:
-      "SHC Pharmaceuticals ensures quality, safety, and purity in pharmaceuticals for global health.",
+      "SHC Pharmaceuticals prioritizes quality, safety, and purity in pharmaceuticals, ensuring global health. Committed to excellence, the company adheres to high industry standards and focuses on continuous improvement throughout production stages. Trust from healthcare professionals and patients is vital, which SHC fosters through transparency and reliability. By using innovative technologies and sustainable practices, they aim to enhance health outcomes while benefiting the environment. SHC believes in accessible healthcare as a right and works to expand its reach through partnerships, driving innovation and improving healthcare accessibility for a healthier future.",
   },
   {
     image: Mission,
@@ -184,14 +184,14 @@ export const companyValues = [
     title: "our vision",
     marginStart: "md:ms-auto",
     description:
-      "Our vision is to achieve excellence in formulation and become a leading pharmaceutical company that empowers life sciences through quality and innovation.",
+      "Our vision is to achieve excellence in formulation and become a leading pharmaceutical company that empowers life sciences through quality and innovation.We aspire to create a healthier world by unlocking the potential of science to improve lives. By prioritizing sustainable practices and ethical responsibilities, we aim to inspire trust and confidence in our brand. Our vision encompasses fostering partnerships and collaborations that drive progress, ensuring our contributions have a lasting and positive impact on society. Through dedication and innovation, we seek to lead the industry with integrity and compassion, making significant strides in enhancing health and well-being for generations to come.",
   },
   {
     image: MissionTwo,
     textAlign: "text-start",
     title: "our mission",
     description:
-      "Innovative and affordable products that address the needs and satisfaction of our customers",
+      "Innovative and affordable products that address the needs and satisfaction of our customer care at the heart of our mission. We are committed to developing solutions that not only meet the highest standards of quality but also enhance accessibility and affordability for individuals around the world. By fostering a culture of continuous improvement and leveraging cutting-edge research and technology, we aim to deliver exceptional value to our customers and make a significant impact on global health outcomes. Through collaboration with healthcare professionals and stakeholders, we strive to create a healthier future for all communities.",
   },
   {
     image: QualityPolicy,
@@ -199,7 +199,7 @@ export const companyValues = [
     marginStart: "md:ms-auto",
     title: "QUALITY POLICY",
     description:
-      "SHC Pharmaceuticals excels in innovation, quality, and customer satisfaction, providing reliable pharmaceuticals to healthcare providers, distributors, and retailers. Contact us to meet your manufacturing needs and contribute to global health.",
+      "SHC Pharmaceuticals excels in innovation, quality, and customer satisfaction, providing reliable pharmaceuticals to healthcare providers, distributors, and retailers. Contact us to meet your manufacturing needs and contribute to global health.Our commitment to quality is unwavering, as we adhere to stringent standards and rigorous testing processes to ensure that every product we deliver meets the utmost levels of safety and efficacy. We believe in the power of collaboration and transparency, working closely with our partners to foster trust and facilitate seamless supply chain operations. Whether you're seeking cutting-edge formulations or dependable generics, SHC Pharmaceuticals is your trusted partner in advancing healthcare solutions. Together, let's pave the way for a healthier, brighter future.",
   },
 ];
 

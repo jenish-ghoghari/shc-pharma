@@ -21,7 +21,7 @@ const CompanyValues = () => {
             {item.title}
           </h1>
           <p
-            className={`mt-4 text-lg italic md:text-xl md:w-1/3 ${item.marginStart}`}
+            className={`mt-4 text-lg italic md:text-xl ${item.marginStart}`}
           >
             {item.description}
           </p>

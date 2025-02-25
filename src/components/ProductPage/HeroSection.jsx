@@ -20,7 +20,7 @@ const HeroSection = ({ pageData }) => {
             </h2>
             <p className="text-gray-300 text-lg">{pageData.pageDescription}</p>
             <p className="text-lg italic">
-              {parse(pageData.pageSubDescription)}
+              {parse(pageData?.pageSubDescription)}
             </p>
           </div>
 
