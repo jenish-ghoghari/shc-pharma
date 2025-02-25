@@ -12,8 +12,6 @@ const Main = () => {
       <AboutSHC />
       <CompanyValues />
       <CoreValues />
-      <Services />
-      <Certifications />
     </>
   );
 };

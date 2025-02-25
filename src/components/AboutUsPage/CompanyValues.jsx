@@ -10,11 +10,11 @@ const CompanyValues = () => {
       }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black opacity-90"></div>
+      <div className="absolute inset-0 bg-black opacity-70"></div>
 
       {/* Content */}
       <div
-        className={`container mx-auto px-6 lg:px-12 relative z-10 text-center text-white  py-12 sm:py-16 md:py-20 lg:py-24 `}
+        className={`animate-fade-up container mx-auto px-6 lg:px-12 relative z-10 text-center text-white  py-12 sm:py-16 md:py-20 lg:py-24 `}
       >
         <div className={`${item.textAlign}`}>
           <h1 className="text-xl md:text-4xl font-bold leading-tight uppercase ">

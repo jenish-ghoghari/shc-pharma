@@ -65,7 +65,7 @@ export const productCategories = [
     image: Capsules,
   },
   {
-    title: "External Preparations Ointment-Cream-Gel-Lotion",
+    title: "External Preparations (Ointment, Cream, Gel, Lotion)",
     url: "external-preparations",
     image: ExternalPreparation,
   },
@@ -94,7 +94,7 @@ export const contactAddresses = [
     title: "Manufacturing Site (Unit 1):",
     company: "SHC Pharmaceuticals",
     email: "info@shcpharma.com",
-    phone: "+91 973-702-0866",
+    phone: "+91 635-777-9300",
     address:
       "18-19, Besides Amrut Udhyog Nagar, Diamond Nagar, Laskana, Surat - 395006, Gujarat, India",
   },

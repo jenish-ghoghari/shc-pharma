@@ -13,7 +13,7 @@ const ProductCategory = () => {
         <div className="sm:col-span-2 md:col-span-3 text-justify">
           <p className="text-base md:text-lg font-medium leading-relaxed">
             Our product range includes tablets, capsules, syrups, and external
-            preparations like ointments and creams, all adhering to strict
+            preparations like ointment, cream, gel, lotion and solution. all adhering to strict
             quality standards for safety and efficacy. Focused on continuous
             innovation and patient well-being, SHC Pharmaceuticals aims to be a
             trusted healthcare partner.

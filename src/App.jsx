@@ -8,6 +8,7 @@ import ContactUs from "./components/ContactUs/ContactUs";
 import TabletPage from "./components/TabletsPage/Main";
 import AboutUs from "./components/AboutUsPage/Main";
 import Services from "./components/ServicePage/Main";
+
 function App() {
   return (
     <>

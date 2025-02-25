@@ -78,7 +78,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-4 text-center">
           <p className="text-sm text-gray-500">
-            &copy; 2022 SHC Pharmaceuticals. All rights reserved.
+            &copy; 2018 SHC Pharmaceuticals. All rights reserved.
           </p>
         </div>
       </div>

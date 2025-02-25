@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full h-[80vh] md:h-[600px] lg:h-[85vh] overflow-hidden">
+    <section className="bounceInUp relative w-full h-[80vh] md:h-[600px] lg:h-[85vh] overflow-hidden">
       {/* Background Video */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
@@ -32,7 +32,7 @@ const HeroSection = () => {
 
       {/* Call to Action */}
       <div className="absolute w-full md:w-[65%] lg:w-[55%] xl:w-[46%] bottom-0 right-0 bg-primary-blue text-white flex justify-between items-center gap-4 z-10">
-        <p className="text-sm md:text-xl p-4 md:p-6">
+        <p className="text-sm md:text-2xl p-4 md:p-6">
           Are you ready to achieve <br />
           <strong>successful growth for your business?</strong>
         </p>
@@ -42,7 +42,7 @@ const HeroSection = () => {
             className="text-black p-3 rounded-full transition"
           >
             <span className="flex gap-2 items-center font-bold text-md">
-              <span className="hidden md:block">Submit your Inquiry</span>
+              <span className="hidden md:block">Submit Your Inquiry</span>
               <FaArrowAltCircleRight size={60} className="text-primary-blue" />
             </span>
           </Link>
