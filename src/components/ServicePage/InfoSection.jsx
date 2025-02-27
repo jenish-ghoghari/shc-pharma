@@ -17,8 +17,7 @@ const InfoSection = () => {
         <div className="space-y-4">
           <p className="text-center md:text-left text-md md:text-lg leading-relaxed">
             If you&apos;re looking to start your own company with minimal
-            investment and establish your brand in pharmaceuticals,
-            nutraceuticals, cosmetics, veterinary, or herbal products,
+            investment and establish your brand in pharmaceuticals products,
             you&apos;ve come to the right place. SHC Pharmaceuticals, a leading
             third-party pharma manufacturing company in India, offers Pharma
             Contract Manufacturing services to renowned pharmaceutical

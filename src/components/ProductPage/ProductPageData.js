@@ -19,6 +19,16 @@ export const productPagesData = [
     pageSubDescription:
       'Explore <span className="font-semibold">our pure veg capsules</span>, crafted for superior absorption and effectiveness. Made from <span className="font-bold"> plant-based capsule shells</span>,ensuring safety, quality, and suitability for all.',
     pageProductLogo: CapsuleWhite,
+    title: "Capsule Third-Party Manufacturing Services",
+    seoDescription:
+      "High-quality third-party manufacturing for capsules with WHO-GMP certification.",
+    keywords: [
+      "Third-party pharma contract for capsules & syrups",
+      "Contract pharmaceutical manufacturing",
+      "Private label pharmaceutical company",
+      "WHO-GMP third-party pharma company",
+      "Outsourcing pharma manufacturing",
+    ],
     otherPageLinks: [
       {
         title: "Syrup",
@@ -149,6 +159,16 @@ export const productPagesData = [
     pageSubDescription:
       "From hospital-grade disinfectants to gentle antiseptic solutions, our products ensure safety, efficacy, and superior hygiene for all applications",
     pageProductLogo: SolutionLogoWhite,
+    title: "Custom Pharmaceutical Solutions | Third-Party Manufacturer",
+    seoDescription:
+      "Custom pharmaceutical solutions and contract manufacturing services for global pharma companies.",
+    keywords: [
+      "Custom pharmaceutical formulations",
+      "Contract pharmaceutical manufacturing",
+      "Pharma private label supplements manufacturing",
+      "Affordable pharma contract manufacturing services",
+      "Pharma CMO services in India",
+    ],
     otherPageLinks: [
       {
         title: "Capsule",
@@ -194,6 +214,16 @@ export const productPagesData = [
     pageSubDescription:
       "From moisturizing lotions to medicated gels, our dermatologically tested products ensure safety, quality, and optimal results for your skin and healthcare needs.",
     pageProductLogo: ExternalPreparationWhite,
+    title: "Top External Preparation Third-Party Manufacturer",
+    seoDescription:
+      "We specialize in third-party manufacturing of external preparations, including creams, ointments, and lotions.",
+    keywords: [
+      "Derma third-party manufacturing pharma",
+      "Pharmaceutical formulation development services",
+      "Veterinary drug contract manufacturer",
+      "Injectable third-party pharma manufacturing",
+      "Best pharma contract manufacturer",
+    ],
     otherPageLinks: [
       {
         title: "Capsule",
@@ -291,6 +321,16 @@ export const productPagesData = [
     pageSubDescription:
       "From cough relief to digestive support, our syrups provide trusted solutions with great taste and proven efficacy. Ensuring quality, safety, and superior formulation.",
     pageProductLogo: SyrupLogoWhite,
+    title: "Syrup Third-Party Manufacturing | Pharma Contract Services",
+    seoDescription:
+      "Premium third-party pharma manufacturing services for syrups and liquid formulations.",
+    keywords: [
+      "Best third-party pharma manufacturer for syrups",
+      "Pharmaceutical third-party manufacturing",
+      "White label pharmaceutical products",
+      "Bulk drug manufacturer",
+      "Pharma OEM manufacturer",
+    ],
     otherPageLinks: [
       {
         title: "Capsule",
@@ -386,6 +426,16 @@ export const productPagesData = [
       "Explore our range of high-quality tablets designed to provide effective relief and optimal healthcare solutions. Our products meet stringent quality standards to ensure safety and efficacy",
     pageSubDescription: "",
     pageProductLogo: TabletsLogoWhite,
+    title: "Best Third-Party Manufacturer for Tablets",
+    seoDescription:
+      "We provide top-quality third-party pharmaceutical manufacturing services for tablets with GMP certification.",
+    keywords: [
+      "Best third-party pharma manufacturer for tablets",
+      "Third-party pharmaceutical manufacturer",
+      "Pharmaceutical third-party manufacturing",
+      "GMP-certified pharmaceutical manufacturer",
+      "USFDA-approved pharma third-party manufacturers",
+    ],
     otherPageLinks: [
       {
         title: "Capsule",
@@ -768,4 +818,71 @@ export const productPagesData = [
       },
     ],
   },
+];
+
+
+
+export const primaryKeywords = [
+  "Third-party pharmaceutical manufacturer",
+  "Contract pharmaceutical manufacturing",
+  "Private label pharmaceutical company",
+  "Pharmaceutical third-party manufacturing",
+  "Best pharma contract manufacturer",
+  "White label pharmaceutical products",
+  "Bulk drug manufacturer",
+  "Custom pharmaceutical formulations",
+  "Pharma OEM manufacturer",
+  "Outsourcing pharma manufacturing",
+];
+
+export  const longTailKeywords = [
+  "Best third-party pharmaceutical manufacturer in India",
+  "How to start a third-party pharma business",
+  "Contract pharmaceutical manufacturing process",
+  "Private label pharma vs contract manufacturing",
+  "Pharma manufacturing companies near me",
+  "Third-party pharma manufacturing cost estimation",
+  "Benefits of outsourcing pharmaceutical production",
+  "Top pharmaceutical contract manufacturers in India",
+  "How to choose a pharma third-party manufacturer",
+  "Pharma PCD vs third-party manufacturing",
+];
+
+export const nicheKeywords = [
+  "GMP-certified pharmaceutical manufacturer",
+  "WHO-GMP third-party pharma company",
+  "EU-GMP contract manufacturing pharma",
+  "USFDA-approved pharma third-party manufacturers",
+  "Pharmaceutical formulation development services",
+  "Nutraceutical contract manufacturer in India",
+  "Ayurvedic third-party manufacturing company",
+  "Derma third-party manufacturing pharma",
+  "Veterinary drug contract manufacturer",
+  "Injectable third-party pharma manufacturing",
+];
+
+export const commercialKeywords = [
+  "Best third-party pharma manufacturer for tablets",
+  "Third-party pharma contract for capsules & syrups",
+  "Buy bulk pharmaceuticals from manufacturers",
+  "Cheapest third-party pharmaceutical manufacturer",
+  "Order custom formulation medicines in bulk",
+  "Pharma private label supplements manufacturing",
+  "Affordable pharma contract manufacturing services",
+  "Find pharma contract manufacturing partners",
+  "Pharma CMO (Contract Manufacturing Organization) services",
+  "Pharma third-party manufacturing agreement process",
+];
+
+export const localKeywords = [
+  "Best third-party pharma manufacturer in Gujarat",
+  "Top pharma contract manufacturing in Surat",
+  "Indian pharmaceutical contract manufacturing company",
+  "Third-party pharma manufacturing in Mumbai",
+  "WHO-GMP pharma manufacturer in India",
+  "Ayurvedic pharma third-party manufacturing in India",
+  "Surat-based third-party pharma company",
+  "Pharma third-party manufacturers in Ahmedabad",
+  "Best pharma manufacturers near Bharuch",
+  "Pharma CMO services in India",
 ];

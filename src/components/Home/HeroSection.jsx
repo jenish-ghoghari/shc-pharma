@@ -1,5 +1,5 @@
 import { FaArrowAltCircleRight } from "react-icons/fa";
-import HomeBackgroundVideo from "../../assets/images/Home-Background-Video.mp4";
+import HomeBackgroundVideo from "../../assets/video/Home-Background-Video.mp4";
 import { Link } from "react-router-dom";
 
 const HeroSection = () => {
@@ -25,8 +25,8 @@ const HeroSection = () => {
           Manufacturing
         </h1>
         <p className="mt-4 text-lg italic md:text-xl">
-          Ensuring <span className="font-semibold">Reliability</span> and{" "}
-          <span className="font-semibold">Consistency</span>
+          Ensuring <strong>Reliability</strong> and{" "}
+          <strong>Consistency</strong>
         </p>
       </div>
 
