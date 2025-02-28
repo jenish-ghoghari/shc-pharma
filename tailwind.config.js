@@ -8,6 +8,7 @@ export default {
           lightBlue: "#D2EDFF",
           yellow: "#FFDE59",
           green: "#BEDC98",
+          darkBlue: "#1b78b1"
         },
       },
       fontFamily: {

@@ -55,7 +55,7 @@ const Header = () => {
                   {item.url ? (
                     <Link
                       to={`${item.url}`}
-                      className={` hover:text-primary-blue flex items-center gap-1 transition-all ${
+                      className={` hover:text-primary-darkBlue flex items-center gap-1 transition-all ${
                         currentPath === item.url
                           ? "text-primary-blue font-bold"
                           : "text-gray-500 font-semibold"
@@ -69,7 +69,7 @@ const Header = () => {
                   ) : (
                     <button
                       onClick={toggleProductDropdown}
-                      className={`hover:text-primary-blue focus:outline-none flex items-center gap-1  ${
+                      className={`hover:text-primary-darkBlue focus:outline-none flex items-center gap-1  ${
                         isProductDropdownOpen
                           ? "text-primary-blue font-bold"
                           : "text-gray-500 font-semibold"
@@ -98,7 +98,7 @@ const Header = () => {
                         >
                           <Link
                             to={subItem.url}
-                            className={`hover:text-primary-blue font-semibold ${
+                            className={`hover:text-primary-darkBlue font-semibold ${
                               currentPath === subItem.url
                                 ? "text-primary-blue"
                                 : "text-gray-700"
@@ -119,7 +119,7 @@ const Header = () => {
           <div className="flex items-center gap-2">
             <Link
               to="/contact"
-              className="text-center text-sm md:text-lg hover:bg-transparent hover:text-primary-blue hover:border-primary-blue hover:transition-all bg-primary-blue font-bold border text-white px-2 md:px-5 py-2 rounded-[8px]  w-[110px] sm:w-[145px] "
+              className="text-center text-sm md:text-lg hover:bg-transparent hover:text-primary-darkBlue hover:border-primary-blue hover:transition-all bg-primary-blue font-bold border text-white px-2 md:px-5 py-2 rounded-[8px]  w-[110px] sm:w-[145px] "
             >
               Contact Us
             </Link>
