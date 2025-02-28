@@ -66,7 +66,7 @@ export const productCategories = [
   },
   {
     title: "External Preparations (Ointment, Cream, Gel, Lotion)",
-    url: "product/external-preparations",
+    url: "product/external-preparation",
     image: ExternalPreparation,
   },
   {
