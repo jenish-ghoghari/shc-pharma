@@ -35,7 +35,7 @@ export const headerMenu = [
   },
   {
     name: "About",
-    url: "/about-us",
+    url: "/about",
   },
   {
     name: "Services",

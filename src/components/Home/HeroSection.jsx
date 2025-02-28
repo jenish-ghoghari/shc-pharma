@@ -38,7 +38,7 @@ const HeroSection = () => {
         </p>
         <div className="bg-white px-6 w-1/4">
           <Link
-            to="/contact-us"
+            to="/contact"
             className="text-black p-3 rounded-full transition"
           >
             <span className="flex gap-2 items-center font-bold text-md">

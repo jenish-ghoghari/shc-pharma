@@ -114,7 +114,7 @@ const Header = () => {
           {/* Login Button and Menu Toggle */}
           <div className="flex items-center gap-2">
             <Link
-              to="/contact-us"
+              to="/contact"
               className="text-center text-sm md:text-lg hover:bg-transparent hover:text-primary-blue hover:border-primary-blue hover:transition-all bg-primary-blue font-bold border text-white px-2 md:px-5 py-2 rounded-[8px]  w-[110px] sm:w-[145px] "
             >
               Contact Us
