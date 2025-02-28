@@ -14,12 +14,16 @@ const Footer = () => {
           <div className="text-center md:text-left">
             <div className="mb-4 flex gap-10 items-center justify-center md:justify-normal">
               <div className="w-[90px] md:w-[100px]">
-                <img src={LogoWhite} alt="LOGO" className="w-auto" />
+                <img
+                  src={LogoWhite}
+                  alt=" Pharmaceutical formulation development services"
+                  className="w-auto"
+                />
               </div>
               <div className="w-[90px] md:w-[100px] ">
                 <img
                   src={LogoDivyaJivan}
-                  alt="LogoDivyaJivan"
+                  alt="Ayurvedic third-party manufacturing company"
                   className="w-auto"
                 />
               </div>

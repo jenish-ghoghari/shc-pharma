@@ -31,7 +31,11 @@ const Header = () => {
       <nav className="container mx-auto px-6 lg:px-12 flex justify-between items-center py-3">
         {/* Logo Section */}
         <Link to={"/"} className="w-[80px] md:w-[100px] ">
-          <img src={Logo} alt="LOGO" className="w-auto" />
+          <img
+            src={Logo}
+            alt="Best third-party pharmaceutical manufacturer in India"
+            className="w-auto"
+          />
         </Link>
 
         {/* Navigation Links and Login Button */}

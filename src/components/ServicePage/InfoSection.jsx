@@ -8,7 +8,7 @@ const InfoSection = () => {
         <div>
           <img
             src={ThirdPartyManufacturing}
-            alt="Third Party Manufacturing"
+            alt="Best Third Party Manufacturing in World"
             className="w-full object-cover"
           />
         </div>

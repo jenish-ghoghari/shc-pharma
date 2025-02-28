@@ -12,7 +12,7 @@ const Certifications = () => {
             <img
               key={index}
               src={data.image}
-              alt={data.name}
+              alt={data.alt}
               className="w-16 sm:w-20 md:w-30 lg:w-40  object-contain"
             />
           ))}

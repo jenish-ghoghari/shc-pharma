@@ -9,7 +9,7 @@ const AboutSHC = () => {
         <div className="w-full md:w-1/2">
           <img
             src={AboutUsImage}
-            alt="Pharmaceutical workers"
+            alt="Order custom formulation medicines in bulk"
             className="w-full h-auto"
           />
         </div>
@@ -36,7 +36,7 @@ const AboutSHC = () => {
         <div className="w-full md:w-1/2 text-center md:text-right flex flex-col gap-4 items-center md:items-end">
           <img
             src={Logo}
-            alt="SHC Pharma"
+            alt="Best third-party pharma manufacturer for tablets"
             className="w-auto h-[50px] object-contain" // Adjusted object-fill to object-contain for better scaling
           />
           <p className="text-sm md:text-base text-gray-700  leading-relaxed">
@@ -53,7 +53,7 @@ const AboutSHC = () => {
         <div className="w-full md:w-1/2 text-center md:text-left flex flex-col gap-4 items-center md:items-start">
           <img
             src={DivyaJivanLifescience}
-            alt="DivyaJivan Lifescience PVT LTD"
+            alt="GMP-certified pharmaceutical manufacturer"
             className="w-[300px] h-auto object-contain" // Adjusted for better scaling
           />
           <p className="text-sm md:text-base text-gray-700  leading-relaxed">

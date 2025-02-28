@@ -90,16 +90,19 @@ const AboutUs = () => {
             {[
               {
                 name: "Divya Jivan Lifescience Pvt. Ltd.",
+                alt: "Buy bulk pharmaceuticals from manufacturers",
                 since: "Since 2021",
                 logo: DivyaJivanLifescience,
               },
               {
                 name: "SHC Pharmaceuticals",
+                alt: " Order custom formulation medicines in bulk",
                 since: "Since 2018",
                 logo: LogoWhite,
               },
               {
                 name: "Divya Jivan Healthcare Pvt. Ltd.",
+                alt: "Indian pharmaceutical contract manufacturing company",
                 since: "Since 2021",
                 logo: DivyaJivanHelthcare,
               },
@@ -107,7 +110,7 @@ const AboutUs = () => {
               <div key={index} className="text-center">
                 <img
                   src={company.logo}
-                  alt={company.name}
+                  alt={company.alt}
                   className="w-[150px] md:w-[190px] h-[50px] mx-auto mb-2 object-contain"
                 />
                 <p className="font-semibold text-md md:text-lg">

@@ -57,25 +57,30 @@ export const productCategories = [
   {
     title: "Tablets",
     url: "product/tablets",
+    alt: ". Best third-party pharma manufacturer for tablets",
     image: Tablet,
   },
   {
     title: "Capsules",
     url: "product/capsule",
+    alt: "Third-party pharma contract for capsules & syrups",
     image: Capsules,
   },
   {
     title: "External Preparations (Ointment, Cream, Gel, Lotion)",
     url: "product/external-preparation",
+    alt: ". Surat-based third-party pharma company",
     image: ExternalPreparation,
   },
   {
     title: "Syrups",
     url: "product/syrup",
+    alt: "Veterinary drug contract manufacturer",
     image: Syrups,
   },
   {
     title: "Solutions",
+    alt: "Derma third-party manufacturing pharma",
     url: "product/solutions",
     image: Solutions,
   },
@@ -114,21 +119,25 @@ export const whatWeDo = [
     description:
       "We specialize in Pharmaceutical Contract production, which is one of our most esteemed services. Our expertise has garnered appreciation both nationally and internationally, contributing to a successful business focused on value-added and quality services.",
     image: ContractManufacturing,
+    alt: " Nutraceutical contract manufacturer in India",
   },
   {
     title: "PHARMA FRANCHISE",
+    alt: "Affordable pharma contract manufacturing services",
     description:
       "We are offering a career opportunity in Pharmaceutical Franchise Marketing. This position is ideal for individuals with substantial experience in pharmaceutical marketing who aspire to establish their own business within the industry.",
     image: PharmaFranchise,
   },
   {
     title: "QUALITY",
+    alt: "Find pharma contract manufacturing partners",
     description:
       "We have established the infrastructure and procedures necessary to uphold a rigorous quality policy. All systems are thoroughly documented and implemented by skilled, trained staff, with a reporting structure that operates independently of manufacturing.",
     image: Quality,
   },
   {
     title: "CAREER",
+    alt: "Cheapest third-party pharmaceutical manufacturer",
     description:
       "SHC Pharma is an equal opportunity employer and provides employment to people from diverse backgrounds. All individuals who believe that they can contribute to the organization's goals are welcome to apply for a job with us.",
     image: Career,
@@ -136,17 +145,35 @@ export const whatWeDo = [
 ];
 
 export const services = [
-  { image: TrustworthyBusinessPolicy, title: "Trustworthy Business Policy" },
-  { image: QuickDelivery, title: "Quick Delivery, Every Time" },
+  {
+    image: TrustworthyBusinessPolicy,
+    title: "Trustworthy Business Policy",
+    alt: "Pharma PCD vs third-party manufacturing",
+  },
+  {
+    image: QuickDelivery,
+    title: "Quick Delivery, Every Time",
+    alt: "Benefits of outsourcing pharmaceutical production",
+  },
   {
     image: CompetitiveAffordablePricing,
     title: "Competitive & Affordable Pricing",
+    alt: "Custom pharmaceutical formulations",
   },
-  { image: PureSafeQualityProducts, title: "Pure & Safe Quality Products" },
-  { image: DiverseProductRange, title: "Diverse Product Range" },
+  {
+    image: PureSafeQualityProducts,
+    title: "Pure & Safe Quality Products",
+    alt: "Bulk drug manufacturer",
+  },
+  {
+    image: DiverseProductRange,
+    title: "Diverse Product Range",
+    alt: "Best pharma contract manufacturer",
+  },
   {
     image: CustomFormulationsBrandingSolution,
     title: "Custom Formulations & Branding Solution",
+    alt: "Veterinary drug contract manufacturer",
   },
 ];
 
@@ -154,18 +181,22 @@ export const licenses = [
   {
     image: FSSAI,
     name: "FSSAI",
+    alt: "FSSAI, third-party pharma company",
   },
   {
     image: GMP,
     name: "GMP",
+    alt: "GMP-certified pharmaceutical manufacturer",
   },
   {
     image: GLP,
     name: "GLP",
+    alt: "EU-GMP contract manufacturing pharma",
   },
   {
     image: FDA,
     name: "FDA",
+    alt: "USFDA-approved pharma third-party manufacturers",
   },
 ];
 
@@ -238,34 +269,40 @@ export const manufacturingProcessData = [
   {
     id: 1,
     title: "Formulation Approval",
+    alt: "USFDA-approved pharma third-party manufacturers",
     description:
       "(If not already obtained) from state or central drug authorities.",
   },
   {
     id: 2,
+    alt: "Derma third-party manufacturing pharma",
     title: "Designing the Product",
     description:
       "Designing the product and finalizing packaging material for printing.",
   },
   {
     id: 3,
+    alt: "Contract pharmaceutical manufacturing process",
     title: "Raw Material Procurement",
     description: "Raw Material Procurement takes place.",
   },
   {
     id: 4,
     title: "Product Manufacturing",
+    alt: " Best third-party pharma manufacturer in Gujarat",
     description:
       "Raw and packaging materials, alongside quality testing, taking place.",
   },
   {
     id: 5,
     title: "Product Stability Testing",
+    alt: "Pharma CMO services in India",
     description: "Product Stability Testing in various conditions.",
   },
   {
     id: 6,
     title: "Shipping the Finished Goods",
+    alt: "Pharma third-party manufacturing agreement process",
     description:
       "Shipping the Finished Goods to the client along with necessary quality documents.",
   },

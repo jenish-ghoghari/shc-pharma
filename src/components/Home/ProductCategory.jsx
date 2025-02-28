@@ -13,10 +13,10 @@ const ProductCategory = () => {
         <div className="sm:col-span-2 md:col-span-3 text-justify">
           <p className="text-base md:text-lg font-medium leading-relaxed">
             Our product range includes tablets, capsules, syrups, and external
-            preparations like ointment, cream, gel, lotion and solution. all adhering to strict
-            quality standards for safety and efficacy. Focused on continuous
-            innovation and patient well-being, SHC Pharmaceuticals aims to be a
-            trusted healthcare partner.
+            preparations like ointment, cream, gel, lotion and solution. all
+            adhering to strict quality standards for safety and efficacy.
+            Focused on continuous innovation and patient well-being, SHC
+            Pharmaceuticals aims to be a trusted healthcare partner.
           </p>
         </div>
       </div>
@@ -32,7 +32,7 @@ const ProductCategory = () => {
             <div className="h-auto overflow-hidden relative group">
               <img
                 src={data.image}
-                alt="card-image"
+                alt={data.alt}
                 className="object-cover w-full h-full transition-transform duration-300 ease-in-out group-hover:scale-110"
               />
             </div>

@@ -13,7 +13,7 @@ const HeroSection = ({ pageData }) => {
             <h2 className="text-3xl lg:text-5xl font-bold flex items-center gap-3">
               <img
                 src={pageData?.pageProductLogo}
-                alt="Product Logo"
+                alt="Indian pharmaceutical contract manufacturing company"
                 className="w-16 md:w-20"
               />
               {pageData?.pageTitle}

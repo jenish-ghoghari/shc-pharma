@@ -10,7 +10,7 @@ const WhatWeDo = () => {
             <div key={index} className="p-4 transition-shadow">
               <img
                 src={service.image}
-                alt={service.title}
+                alt={service.alt}
                 className="w-full h-55 object-cover mb-4"
               />
               <h3 className="text-xl font-semibold mb-2">{service.title}</h3>

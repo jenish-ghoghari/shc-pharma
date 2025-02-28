@@ -7,7 +7,7 @@ const PharmaProcess = () => {
     <section className="bg-gray-900 text-white">
       <div className="container mx-auto px-6 lg:px-12 py-12 sm:py-16 md:py-20 lg:py-24 text-center">
         <div className="flex justify-center mb-4">
-          <img src={ProcessOfThirdLogo} alt="Process Icon" className="w-20 md:w-32" />
+          <img src={ProcessOfThirdLogo} alt="Best pharma manufacturers near Bharuch" className="w-20 md:w-32" />
         </div>
         <h2 className="text-2xl md:text-3xl font-bold mt-10">
           Process of Third-Party Pharma Manufacturing
@@ -20,7 +20,7 @@ const PharmaProcess = () => {
               {" "}
               <img
                 src={ProcessOfThirdPartyPharmaManufacturing1}
-                alt="Pharma Manufacturing"
+                alt="Third-party pharma manufacturing in Mumbai"
                 className="w-full"
               />
             </div>
@@ -52,7 +52,7 @@ const PharmaProcess = () => {
               {" "}
               <img
                 src={ProcessOfThirdPartyPharmaManufacturing2}
-                alt="Pharma Manufacturing"
+                alt="Surat-based third-party pharma company"
                 className="w-full"
               />
             </div>

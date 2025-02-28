@@ -26,7 +26,7 @@ const Services = () => {
               <img
                 className="w-14  sm:w-20 md:w-35"
                 src={feature.image}
-                alt={feature.title}
+                alt={feature.alt}
               />
             </div>
             <h3 className="text-sm sm:text-md md:text-lg font-semibold text-gray-700 text-center">

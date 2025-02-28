@@ -5,7 +5,7 @@ export default function ManufacturingProcess() {
     <section className="container mx-auto px-6 lg:px-12 py-12 sm:py-16 md:py-20 lg:py-24 ">
       <div className="flex flex-col sm:flex-row  items-center gap-10 md:w-[90%] mx-auto">
         <div className="w-full sm:w-1/6">
-          <img src={Image} alt="" className="w-[100px] mx-auto md:w-full" />
+          <img src={Image} alt="Pharma third-party manufacturers in Ahmedabad" className="w-[100px] mx-auto md:w-full" />
         </div>
         <div className="w-full sm:w-2/2 text-left">
           <h2 className="text-xl md:text-4xl font-bold  text-gray-900">

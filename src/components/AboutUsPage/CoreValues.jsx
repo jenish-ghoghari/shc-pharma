@@ -28,7 +28,7 @@ const CoreValues = () => {
               <div className="text-5xl py-4">
                 <img
                   src={value.icon}
-                  alt={value.title}
+                  alt={value.alt}
                   className="w-16 m-auto"
                 />
               </div>
@@ -39,7 +39,7 @@ const CoreValues = () => {
         </div>
         
         <div className="text-center px-5 py-3 bg-white w-fit mt-12 mx-auto rounded-xl">
-        <img src={Logo} alt="SHC Pharma" className=" w-28" />
+        <img src={Logo} alt="Top pharma contract manufacturing in Surat" className=" w-28" />
         </div>
 
       </div>

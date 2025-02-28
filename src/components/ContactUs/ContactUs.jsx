@@ -150,7 +150,7 @@ const ContactUs = () => {
               <img
                 className="w-14 sm:w-20 md:w-24"
                 src={item.image}
-                alt={item.title}
+                alt={item.alt}
               />
               <h3 className="mt-4 text-sm font-semibold text-center text-gray-700 sm:text-md">
                 {item.title}
