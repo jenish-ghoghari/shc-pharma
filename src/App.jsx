@@ -1,4 +1,4 @@
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 import Home from "./components/Home/Main";
 import Header from "./components/common/Header";
@@ -11,15 +11,13 @@ function App() {
   return (
     <>
       <Header />
-      <Router>
-        <Switch>
-          <Route exact path="/" component={<Home />} />
-          <Route path="/product/:id" component={<ProductsPage />} />
-          <Route path="/contact" component={<ContactUs />} />
-          <Route path="/about" component={<AboutUs />} />
-          <Route path="/services" component={<Services />} />
-        </Switch>
-      </Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/product/:id" element={<ProductsPage />} />
+        <Route path="/contact" element={<ContactUs />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/services" element={<Services />} />
+      </Routes>
       <Footer />
     </>
   );
