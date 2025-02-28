@@ -238,6 +238,7 @@ export const coreValues = [
   {
     id: "01",
     title: "Embrace Integrity",
+    alt: "Outsourcing pharma manufacturing",
     description: "Always do the right thing, even when unobserved.",
     icon: EmbraceIntegrity,
     color: "bg-red-500",
@@ -245,6 +246,7 @@ export const coreValues = [
   {
     id: "02",
     title: "By Any Means Necessary",
+    alt: "Best pharma contract manufacturer",
     description: "Care for customers, employees, and products.",
     icon: ByAnyMeansNecessary,
     color: "bg-blue-500",
@@ -252,6 +254,7 @@ export const coreValues = [
   {
     id: "03",
     title: "Top Priority",
+    alt: "How to choose a pharma third-party manufacturer",
     description: "Listen to your customers: HCPs, patients, and partners.",
     icon: TopPriority,
     color: "bg-green-500",
@@ -259,6 +262,7 @@ export const coreValues = [
   {
     id: "04",
     title: "Teamwork always",
+    alt: ". Private label pharma vs contract manufacturing",
     description: "Foster collaboration both internally and externally.",
     icon: TeamworkAlways,
     color: "bg-yellow-500",
