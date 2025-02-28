@@ -43,7 +43,7 @@ const TableComponent = ({ pageData }) => {
               </tr>
             </thead>
             <tbody>
-              {pageData.tableData.map((section, index) => (
+              {pageData?.tableData.map((section, index) => (
                 <React.Fragment key={index}>
                   {section.title && (
                     <tr className={`${pageData.tableTitleBackground} border-b`}>

@@ -16,11 +16,11 @@ import {
 const Main = () => {
   const { id } = useParams();
   const pageData = productPagesData.find(
-    (page) => page.pageUrl.toLowerCase() === id.toLowerCase()
+    (page) => page?.pageUrl.toLowerCase() === id.toLowerCase()
   );
 
   const title = pageData
-    ? `${pageData.title} | SHC Pharmaceuticals`
+    ? `${pageData?.title} | SHC Pharmaceuticals`
     : "Home | SHC Pharmaceuticals";
   const description =
     pageData?.seoDescription ||

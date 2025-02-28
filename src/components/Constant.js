@@ -56,27 +56,27 @@ export const headerMenu = [
 export const productCategories = [
   {
     title: "Tablets",
-    url: "tablets",
+    url: "product/tablets",
     image: Tablet,
   },
   {
     title: "Capsules",
-    url: "capsule",
+    url: "product/capsule",
     image: Capsules,
   },
   {
     title: "External Preparations (Ointment, Cream, Gel, Lotion)",
-    url: "external-preparations",
+    url: "product/external-preparations",
     image: ExternalPreparation,
   },
   {
     title: "Syrups",
-    url: "syrup",
+    url: "product/syrup",
     image: Syrups,
   },
   {
     title: "Solutions",
-    url: "solutions",
+    url: "product/solutions",
     image: Solutions,
   },
 ];
